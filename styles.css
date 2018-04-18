@@ -256,6 +256,7 @@ h1 {
 	margin-top: 30px;
 /*	border-bottom: 2px solid #6a6a6a;*/
 	/*display: inline;*/
+	text-align: none;
 }
 hr {
 	width: 41px;
@@ -325,7 +326,7 @@ hr {
 	height: 36px;
 	position: absolute;
 	background: #e74c3c;
-	right: calc(48% + 0.015%);
+	right: calc(48% + 0.01%);
 }
 .bottomHistory {
 	margin-top: 47px;
@@ -345,4 +346,23 @@ hr {
 }
 .bottomHistory:hover {
 	opacity: 0.7;
+}
+.ourServises {
+	max-height: 768px;
+}
+.leftSer {
+	height: 768px;
+	width: calc(100% * 0.542);
+	background: gray;
+	border: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.rightServ {
+	width: calc(100% * 0.458);
+	background: url(./img_part1/tablet.png);
+	border: none;
+	display: inline-block;
+	vertical-align: middle;
+	height: 768px;
 }
