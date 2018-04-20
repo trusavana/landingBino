@@ -639,10 +639,50 @@ hr {
 	letter-spacing: 0.7px;
 	margin-left: 50px;
 }
+.hrHov, .titleHov, .contentHov {
+	opacity: 0;
+}
+.lineBlockOne:hover #seeThisBlock,
+.lineBlockTwo:hover #seeThisBlock,
+.lineBlockTree:hover #seeThisBlock,
+.lineBlockFor:hover #seeThisBlock,
+.lineBlockFiv:hover #seeThisBlock,
+.lineBlockSix:hover #seeThisBlock,
+.lineBlockSeven:hover #seeThisBlock,
+.lineBlockEight:hover #seeThisBlock {
+	opacity: 1;
+}
 .lineBlockOne:hover {
-	background: transparent;
-	background: rgba(231, 76, 60, 0.8);
-
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/windows.png);
+}
+.lineBlockTwo:hover {
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/t-short.png);
+}
+.lineBlockTree:hover {
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/tablet2.png);
+}
+.lineBlockFor:hover {
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/phone.png);
+}
+.lineBlockFiv:hover {
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/turck.png);
+}
+.lineBlockSix:hover {
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/papers.png);
+}
+.lineBlockSeven:hover {
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/reader.png);
+}
+.lineBlockEight:hover {
+	background-image: linear-gradient(to right, rgba(231, 76, 60, .8),
+	rgba(231, 76, 60, .8)), url(./img_part1/macs.png);
 }
 .caseStudy {
 	min-height: 1186px;
@@ -682,14 +722,12 @@ hr {
 	position: absolute;	
 }
 .rightStudy {
-	/*background: url(img_part1/put-your-image.png);*/
 	width: 582px;
 	height: 722px;
 	margin-top: 102px;
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 40%;
-	/*left: calc(50% + 291px);*/
+	margin-left: 30%;	
 }
 .style_circleStu {
 	position: absolute;
@@ -776,9 +814,6 @@ hr {
 .radiStud {
 	margin-top: 53px;
 }
-/*.inputDisplayNone {
-	display: none;
-}*/
 .inputDisplayNone[type=radio] {
     display: none;
 }
